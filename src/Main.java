@@ -7,7 +7,7 @@ public class Main
         //String partyAffiliation = “”
         Scanner in = new Scanner(System.in);
         String partyAffiliation = "";
-        String menu = "D - Democrat\tR - Republican\tI - Independent\nEnter your party affiliation: ";
+        String menu = "D - Democrat\tR - Republican\tI - Independent\n\nEnter your party affiliation: ";
 
         //output “Enter your party affiliation: ”
         System.out.println(menu);
@@ -17,19 +17,19 @@ public class Main
 
         if (partyAffiliation.equalsIgnoreCase("D"))
         {
-            System.out.println("You get a Democratic Donkey.");
+            System.out.println("\nYou get a Democratic Donkey.");
         }
         else if (partyAffiliation.equalsIgnoreCase("R"))
         {
-            System.out.println("You get a Republican Elephant.");
+            System.out.println("\nYou get a Republican Elephant.");
         }
         else if (partyAffiliation.equalsIgnoreCase("I"))
         {
-            System.out.println("You get an Independent Man.");
+            System.out.println("\nYou get an Independent Person.");
         }
         else
         {
-            System.out.println("You entered a party affiliation other than D, R, or I, so you get Other. You entered: " + partyAffiliation);
+            System.out.println("\nYou entered a party affiliation other than D, R, or I, so you get Other. You entered: " + partyAffiliation);
         }
 
         //if partyAffiliation == “D” then
