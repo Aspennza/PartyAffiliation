@@ -10,7 +10,7 @@ public class Main
         String menu = "D - Democrat\tR - Republican\tI - Independent\n\nEnter your party affiliation: ";
 
         //output “Enter your party affiliation: ”
-        System.out.println(menu);
+        System.out.print(menu);
 
         //input partyAffiliation
         partyAffiliation = in.nextLine();
